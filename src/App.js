@@ -1,25 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import * as React from 'react'
+import theme from './theme'
+import  Fonts  from "./Fonts"
+import { ChakraProvider } from '@chakra-ui/react'
+import ContextProvider from './context/ContextProvider'
+import MainApp from './MainApp'
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <ContextProvider>
+    <ChakraProvider theme={theme}>
+      <Fonts/>
+      <MainApp/>
+    </ChakraProvider>
+    </ContextProvider>
+  )
 }
-
-export default App;
