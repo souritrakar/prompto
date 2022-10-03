@@ -1,6 +1,6 @@
 # Shopify Front-end Developer Challenge (Fall 2022)
 
-My attempt at the Shopify Front-end Developer Challenge (Fall 2022). Although I cannot apply for Shopify internships just yet (since I was 14 at the time of making), I decided to try my hand at the challenge and see what it's like.
+My attempt at the Shopify Front-end Developer Challenge (Fall 2022). Although I cannot apply for Shopify internships just yet (since I was 14 at the time of making), I decided to try my hand at the challenge and see what it's like. (Note: Due to OpenAI API Key Restrictions it may not work at the moment)
 
 Try it out: https://prompto.netlify.app/
 
